@@ -8,6 +8,7 @@
 .minecraft/user*cache.json
 .minecraft/journeymap
 .minecraft/TombManyGraves
+.minecraft/tv-cache
 
 # Ignore mixin output
 .minecraft/.mixin.out
