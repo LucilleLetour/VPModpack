@@ -18,7 +18,7 @@
         {
             "text" : "Test",
             "posX" : -100,
-            "posY" : 72,
+            "posY" : 50,
             "width" : 200,
             "height" : 20,
             "texture" : "poopy:textures/missing.png",
