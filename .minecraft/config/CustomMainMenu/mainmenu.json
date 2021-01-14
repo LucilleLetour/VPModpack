@@ -1,0 +1,95 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "poopy:textures/title.png",
+            "posX" : -144,
+            "posY" : 40,
+            "width" : 400,
+            "height" : 63,
+            "alignment" : "top_center"
+        }
+    },
+ 
+    "buttons":
+    {
+ 
+        "multiplayer":
+        {
+            "text" : "                               ooga booga",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "texture" : "poopy:textures/multiplayer.png",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 16777215,
+            "shadow" : true,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+ 
+        "options":
+        {
+            "text" : "",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "texture" : "poopy:textures/options.png",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 16777215,
+            "shadow" : false,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+ 
+        "quit":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "texture" : "poopy:textures/quit.png",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 16777215,
+            "shadow" : false,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+ 
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+ 
+    "other":
+    {
+       "panorama":
+        {
+            "images" : "poopy:textures/Jared.png",
+            "blur" : true,
+            "gradient" : false
+        }
+    }
+}
+        
+    
