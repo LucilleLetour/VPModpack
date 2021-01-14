@@ -1,0 +1,12 @@
+{
+    
+	"variants": {
+        
+		"normal": [
+			{ "model": "red_mushroom", "weight": 100 },
+		    	
+{ "model": "red_mushroom/red_mushroom1", "weight": 1 } 
+		]   
+	}
+
+}

@@ -1,0 +1,12 @@
+{
+    
+	"variants": {
+        
+		"normal": [ 
+			{ "model": "oak_leaves", "weight": 199 }
+,
+			{ "model": "oak_leaves/oak_leaves1", "weight": 1 }  
+		]  
+	}
+
+}

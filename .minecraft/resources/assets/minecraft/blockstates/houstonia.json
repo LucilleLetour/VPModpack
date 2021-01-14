@@ -1,0 +1,12 @@
+{
+    
+	"variants": {
+        
+		"normal": [
+		{ "model": "houstonia" }
+,
+		{ "model": "flowers/azure_bluet_blue" }
+		]    
+	}
+
+}

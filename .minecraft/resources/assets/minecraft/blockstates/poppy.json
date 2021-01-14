@@ -1,0 +1,12 @@
+{
+    
+	"variants": {
+        
+		"normal": [
+		{ "model": "poppy" }
+,
+		{ "model": "flowers/poppy_patch" }
+		]    
+	}
+
+}

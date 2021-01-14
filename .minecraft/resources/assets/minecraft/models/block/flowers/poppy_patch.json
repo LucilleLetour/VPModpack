@@ -1,0 +1,11 @@
+{
+    
+	"parent": "block/cross",
+    
+	"textures": {
+        
+		"cross": "blocks/poppy_patch"
+    
+	}
+
+}

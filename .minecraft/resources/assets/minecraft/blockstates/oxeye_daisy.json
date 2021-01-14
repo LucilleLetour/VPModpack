@@ -1,0 +1,12 @@
+{
+    
+	"variants": {
+        
+		"normal": [
+		{ "model": "daisy" }
+,
+		{ "model": "flowers/oxeye_daisy1" }
+		]    
+	}
+
+}

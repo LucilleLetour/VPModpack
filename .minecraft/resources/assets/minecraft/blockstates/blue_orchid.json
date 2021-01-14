@@ -1,0 +1,14 @@
+{
+    
+	"variants": {
+        
+		"normal": [
+		{ "model": "orchid" }
+,
+		{ "model": "flowers/red_orchid" },
+		{ "model": "flowers/purple_orchid" },
+		{ "model": "flowers/white_orchid" }
+		]    
+	}
+
+}

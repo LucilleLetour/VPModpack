@@ -1,0 +1,12 @@
+{
+    
+	"variants": {
+        
+		"normal": [
+		{ "model": "dandelion" }
+,
+		{ "model": "flowers/dandelion1" }
+		]    
+	}
+
+}

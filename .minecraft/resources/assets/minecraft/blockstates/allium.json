@@ -1,0 +1,12 @@
+{
+    
+	"variants": {
+        
+		"normal": [
+		{ "model": "allium" }
+,
+		{ "model": "flowers/allium_white" }
+		]    
+	}
+
+}
