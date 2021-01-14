@@ -15,3 +15,7 @@
 
 # Ignore user saves
 .minecraft/saves
+
+.minecraft/config/jei/bookmarks.ini
+
+.minecraft/resourcepacks

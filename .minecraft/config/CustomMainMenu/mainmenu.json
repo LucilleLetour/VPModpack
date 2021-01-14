@@ -14,6 +14,23 @@
  
     "buttons":
     {
+        "singleplayer":
+        {
+            "text" : "Test",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "texture" : "poopy:textures/missing.png",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 16777215,
+            "shadow" : true,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
  
         "multiplayer":
         {
@@ -30,6 +47,23 @@
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
+            }
+        },
+
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -122,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "poopy:textures/missing.png",
+            "normalTextColor" : 0,
+            "hoverTextColor" : 16777215,
+            "shadow" : false,
+            "action" : 
+            {
+                "type" : "refresh"
             }
         },
  
