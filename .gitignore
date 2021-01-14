@@ -1,0 +1,16 @@
+# Ignore all logs
+*.log
+*/*.log
+.minecraft/logs
+.minecraft/crash-reports
+
+# Ignore usercache data
+.minecraft/user*cache.json
+.minecraft/journeymap
+.minecraft/TombManyGraves
+
+# Ignore mixin output
+.minecraft/.mixin.out
+
+# Ignore user saves
+.minecraft/saves
