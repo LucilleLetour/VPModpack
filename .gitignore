@@ -22,8 +22,12 @@
 # JEI settings/bookmarks
 .minecraft/config/jei/
 
+.minecraft/config/InvTweaks.cfg
+
 .minecraft/resourcepacks
 .minecraft/shaderpacks
+
+.minecraft/config/splash.properties
 
 natives/
 
