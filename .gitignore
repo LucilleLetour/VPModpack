@@ -23,5 +23,8 @@
 .minecraft/config/jei/
 
 .minecraft/resourcepacks
+.minecraft/shaderpacks
 
 natives/
+
+instance.cfg
