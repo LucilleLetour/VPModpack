@@ -10,6 +10,10 @@
 .minecraft/TombManyGraves
 .minecraft/tv-cache
 
+# Ignore user minecraft/optifine settings
+.minecraft/options
+.minecraft/optionsof
+
 # Ignore mixin output
 .minecraft/.mixin.out
 
@@ -19,3 +23,5 @@
 .minecraft/config/jei/bookmarks.ini
 
 .minecraft/resourcepacks
+
+natives/
