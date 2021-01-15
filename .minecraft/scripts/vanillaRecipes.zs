@@ -24,6 +24,26 @@ recipes.remove(<minecraft:iron_shovel>, false);
 recipes.remove(<minecraft:golden_shovel>, false);
 recipes.remove(<minecraft:diamond_shovel>, false);
 
+recipes.remove(<minecraft:leather_helmet>, false);
+recipes.remove(<minecraft:leather_chestplate>, false);
+recipes.remove(<minecraft:leather_leggings>, false);
+recipes.remove(<minecraft:leather_boots>, false);
+
+recipes.remove(<minecraft:iron_helmet>, false);
+recipes.remove(<minecraft:iron_chestplate>, false);
+recipes.remove(<minecraft:iron_leggings>, false);
+recipes.remove(<minecraft:iron_boots>, false);
+
+recipes.remove(<minecraft:golden_helmet>, false);
+recipes.remove(<minecraft:golden_chestplate>, false);
+recipes.remove(<minecraft:golden_leggings>, false);
+recipes.remove(<minecraft:golden_boots>, false);
+
+recipes.remove(<minecraft:diamond_helmet>, false);
+recipes.remove(<minecraft:diamond_chestplate>, false);
+recipes.remove(<minecraft:diamond_leggings>, false);
+recipes.remove(<minecraft:diamond_boots>, false);
+
 recipes.remove(<inventorypets:cobblestone_pet>, false);
 recipes.remove(<inventorypets:dirt_pet>, false);
 
@@ -53,11 +73,6 @@ val validPets = [
     <inventorypets:pufferfish_pet>,  
     <inventorypets:crafting_table_pet>] as IIngredient[];
 
-val nuggie = <minecraft:iron_nugget>;
-val gnuggie = <minecraft:gold_nugget>;
-val nrack = <minecraft:netherrack>;
-val ssand = <minecraft:soul_sand>;
-val dirt = <minecraft:dirt>;
 val netheriteingot = <futuremc:netherite_ingot>;
 
 for i, pet in validPets {
@@ -75,6 +90,11 @@ for i, pet in validPets {
     recipes.addShaped("" ~ i ~ "newCR", out, new);
 }
 
+val nuggie = <minecraft:iron_nugget>;
+val gnuggie = <minecraft:gold_nugget>;
+val nrack = <minecraft:netherrack>;
+val ssand = <minecraft:soul_sand>;
+val dirt = <minecraft:dirt>;
 
 recipes.addShapedMirrored("SoulSoilCR1", <futuremc:soul_soil> * 4, [
     [ssand,dirt],
