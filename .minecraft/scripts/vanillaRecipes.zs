@@ -1,5 +1,11 @@
 import crafttweaker.item.IIngredient;
 
+recipes.remove(<minecraft:wooden_hoe>, false);
+recipes.remove(<minecraft:stone_hoe>, false);
+recipes.remove(<minecraft:iron_hoe>, false);
+recipes.remove(<minecraft:golden_hoe>, false);
+recipes.remove(<minecraft:diamond_hoe>, false);
+
 recipes.remove(<minecraft:wooden_pickaxe>, false);
 recipes.remove(<minecraft:stone_pickaxe>, false);
 recipes.remove(<minecraft:iron_pickaxe>, false);
@@ -43,6 +49,9 @@ recipes.remove(<minecraft:diamond_helmet>, false);
 recipes.remove(<minecraft:diamond_chestplate>, false);
 recipes.remove(<minecraft:diamond_leggings>, false);
 recipes.remove(<minecraft:diamond_boots>, false);
+
+recipes.remove(<minecraft:bow>, false);
+reciped.remove(<minecraft:shears>, false);
 
 recipes.remove(<inventorypets:cobblestone_pet>, false);
 recipes.remove(<inventorypets:dirt_pet>, false);
