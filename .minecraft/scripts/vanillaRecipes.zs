@@ -51,7 +51,7 @@ recipes.remove(<minecraft:diamond_leggings>, false);
 recipes.remove(<minecraft:diamond_boots>, false);
 
 recipes.remove(<minecraft:bow>, false);
-reciped.remove(<minecraft:shears>, false);
+recipes.remove(<minecraft:shears>, false);
 
 recipes.remove(<inventorypets:cobblestone_pet>, false);
 recipes.remove(<inventorypets:dirt_pet>, false);

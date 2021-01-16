@@ -3,11 +3,11 @@
     {
         "title":
         {
-            "image" : "poopy:textures/title.png",
-            "posX" : -144,
-            "posY" : 40,
+            "image" : "jtvp:textures/title.png",
+            "posX" : -200,
+            "posY" : 10,
             "width" : 400,
-            "height" : 63,
+            "height" : 158,
             "alignment" : "top_center"
         }
     },
@@ -16,14 +16,14 @@
     {
         "multiplayer":
         {
-            "text" : "                               ooga booga",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
-            "height" : 20,
-            "texture" : "poopy:textures/multiplayer.png",
-            "normalTextColor" : 0,
-            "hoverTextColor" : 16777215,
+            "text" : "Play",
+            "posX" : -104,
+            "posY" : 100,
+            "width" : 208,
+            "height" : 27,
+            "texture" : "jtvp:textures/multiplayer.png",
+            "normalTextColor" : 14339533,
+            "hoverTextColor" : 14339322,
             "shadow" : true,
             "action" : 
             {
@@ -34,15 +34,15 @@
  
         "options":
         {
-            "text" : "",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "texture" : "poopy:textures/options.png",
-            "normalTextColor" : 0,
-            "hoverTextColor" : 16777215,
-            "shadow" : false,
+            "text" : "Options",
+            "posX" : -104,
+            "posY" : 127,
+            "width" : 104,
+            "height" : 27,
+            "texture" : "jtvp:textures/options.png",
+            "normalTextColor" : 14339533,
+            "hoverTextColor" : 14339322,
+            "shadow" : true,
             "action" : 
             {
                 "type" : "openGui",
@@ -52,15 +52,15 @@
  
         "quit":
         {
-            "text" : "",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "texture" : "poopy:textures/quit.png",
-            "normalTextColor" : 0,
-            "hoverTextColor" : 16777215,
-            "shadow" : false,
+            "text" : "Quit",
+            "posX" : 0,
+            "posY" : 127,
+            "width" : 104,
+            "height" : 27,
+            "texture" : "jtvp:textures/quit.png",
+            "normalTextColor" : 14339533,
+            "hoverTextColor" : 14339322,
+            "shadow" : true,
             "action" : 
             {
                 "type" : "quit"
@@ -82,11 +82,9 @@
  
     "other":
     {
-       "panorama":
+       "background":
         {
-            "images" : "poopy:textures/Jared.png",
-            "blur" : true,
-            "gradient" : false
+            "image" : "jtvp:textures/pano.png"
         }
     }
 }
